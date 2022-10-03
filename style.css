@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2dd4bf;
+}
+
+.container{
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    width:30vw;
+    justify-content: center;
+    padding: 2rem;
+    margin-top: 3rem;
+    background-color: #0f766e;
+}
+#submit-btn{
+  
+    width: 20vw;
+    display: block;
+    margin:  auto;
+    margin-top: 1rem;
+    border-radius: 5px;
+    background-color: tomato;
+    cursor: pointer;
+}
+#dob,#lucky-no{
+    text-align: center;
+}
+
+#output{
+    /* width: 30vh; */
+    height: 15vh;
+    color: white;
+    font-weight: 900;
+    font-size: large;
+    text-align: center;
+    margin: 2rem;
+    /* background-color: #0f766e; */
+
+}
+
+
+
